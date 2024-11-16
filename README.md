@@ -16,8 +16,15 @@ The primary aim is to reduce the asset-liability duration gap in future financia
 3. Goal-seeking algorithm ensures that the present value of future fulfillment cash flows and the risk adjustment—factoring in the loss-absorbing effect—remains consistent with current liabilities.
 4. Cash flow projections are derived from actuarial models covering up to 106 years, in line with IFRS 17 standards. The project utilizes FIS Prophet for actuarial modeling.
 
+## Data Files
+The repository includes the following Excel file:
+- CFS.xlsm: Contains sample data of insurance contracts used for calculations with VBA codes embedded.
+- CFS-Reins.xlsm: Contains sample data of reinsurance contracts used for calculations with VBA codes embedded.
+
+
 ### Getting Started
 1. Clone the repository:
    git clone https://github.com/username/Flatten-Locked-in-Discounting-Rates.git
 2. Modify the relevant code and file paths in your local environment.
 3. Run the calculations to obtain the flattened discount rates.
+
